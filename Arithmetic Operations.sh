@@ -7,3 +7,9 @@ Display the result rounded to 3 decimal places.
 read operation
 
 printf "%.3f" $(echo "scale = 4; $operation" | bc)
+
+### OR
+
+read operation
+
+echo $(($operation))
